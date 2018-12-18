@@ -1,3 +1,10 @@
 language: java
 sudo: false
 script: mvn install
+deploy:
+  provider: releases
+  api_key:
+    secure: dFCe+N1SKbjcpWyzSAOnHSWWFK4V742NYtehYifbBXwXH6VkD0vsFSv8+20f/airkaqPj4eotohbQ8yxflhqxT602JEtgEHL6n8DREprfO2w6wRgfN5nC7RueTUqtU8JTOPY1NCB2E95zI8kzde7GQp+jNHrBoW183cLfRb3ZItYHe7w7e/2ATtfg0UX/+rHZwyXMcl7mrVJAljiw92r4/Xw01pQX2vkVxjB1Nya3NIwvdWjS3Yva+rmyYWOG9OkH4m9SE4rcd0j+bJ5SUrPOjvFnHPN5JhaAPGYrcfQq1H7FkdRFnmIMV4cPXOhxdq2GYk20326UVSXpalRre5304GOn43Mo2+7K0Rz9zlnPhjuDj1bRrbeNkv94fXFeBIYEGPoMFSm8TgqpH1g8UlfUCSKLFAJdem3iuU8s4dCtJ356+odw5OOqGT1QRLPa45hEhK2UmS9oLMrp4nEXNDWSHev53bICvfJ75ghTS06zfW5oKUlYED7ef9tZ4F72ll0z/FsGvQN47yqmibvYMQ2b+/jIT/ofUU9sTEtoBRQHEVlnyenT1Lh01QRfCyuXYfTfvHOLLRq8bvxvOw84RRRD2PdfWCyHDLcp5jHnxKlhnv9MxDMBxHR40OfCvwM47CwKUrxD7YERudFd7KKf5KMvZ+b9Vs/WAqAXM4NDcTM7n0=
+  file: "/Users/malte.koelle/workspace/Schule/Modul_426-Rutschmann/Project/target/02_ConsoleCalculatorWithMaven-1.0-SNAPSHOT.jar"
+  on:
+    repo: malte1koelle/ConosleCalculator
