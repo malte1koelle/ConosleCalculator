@@ -8,3 +8,5 @@ deploy:
   file: "/Users/malte.koelle/workspace/Schule/Modul_426-Rutschmann/Project/target/02_ConsoleCalculatorWithMaven-1.0-SNAPSHOT.jar"
   on:
     repo: malte1koelle/ConosleCalculator
+
+
